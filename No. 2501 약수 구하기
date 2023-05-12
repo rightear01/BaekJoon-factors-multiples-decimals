@@ -10,7 +10,7 @@ int main() {
 		// 해당 순서의 약수를 출력하고 반복문 탈출
 		if (num % i == 0) { if (++ctr == sequence) { printf("%d", i); break; }}
 	}
-	// 반복문을 다 맞추었는데(ctr값 최대치) 입력받은 약수의 순서보다 작은경우(실패) 0 출력
+	// 반복문을 다 맞추었는데(ctr값 최대치) 입력받은 약수의 순서보다 작은경우(실패) 0 출력힘.
 	if (ctr < sequence) { printf("%d", 0); }
 
 	return 0;
